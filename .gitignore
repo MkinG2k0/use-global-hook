@@ -1,0 +1,9 @@
+build/
+dist/
+node_modules
+yarn.lock
+.idea
+.stats.html
+
+
+!/stats.html

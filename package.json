@@ -1,0 +1,98 @@
+{
+  "name": "react-ui",
+  "description": "react ui",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "vite ",
+    "build": "tsc && vite build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "lint": "eslint --fix ./src/**/*.ts*",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@mdx-js/react": "latest",
+    "@rollup/plugin-typescript": "latest",
+    "@storybook/addon-essentials": "latest",
+    "@storybook/addon-interactions": "latest",
+    "@storybook/addon-links": "latest",
+    "@storybook/blocks": "latest",
+    "@storybook/react": "latest",
+    "@storybook/react-vite": "latest",
+    "@storybook/testing-library": "latest",
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "@vitejs/plugin-react": "latest",
+    "autoprefixer": "latest",
+    "babel-loader": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-eslint-comments": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-jsx-a11y": "latest",
+    "eslint-plugin-prettier": "latest",
+    "eslint-plugin-promise": "latest",
+    "eslint-plugin-react": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "eslint-plugin-simple-import-sort": "latest",
+    "eslint-plugin-sonarjs": "latest",
+    "eslint-plugin-storybook": "latest",
+    "picocolors": "latest",
+    "postcss": "latest",
+    "prettier": "latest",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "rollup-plugin-postcss": "latest",
+    "rollup-plugin-scss": "latest",
+    "rollup-plugin-typescript-paths": "latest",
+    "rollup-plugin-visualizer": "latest",
+    "sass": "latest",
+    "storybook": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "vite-plugin-progress": "latest",
+    "vite-plugin-svgr": "latest",
+    "vite-tsconfig-paths": "latest",
+    "eslint-plugin-perfectionist": "^1.4.0"
+  },
+  "dependencies": {
+    "cssnano": "latest",
+    "lodash": "latest",
+    "vitest": "latest"
+  },
+  "keywords": [
+    "react",
+    "boilerplate",
+    "library",
+    "map",
+    "mapper",
+    "easy"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "typings": "./dist/index.d.ts",
+  "contributors": [
+    {
+      "name": "Mut Kama",
+      "email": "kamai122000@mail.ru"
+    }
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "files": [
+    "dist"
+  ]
+}
